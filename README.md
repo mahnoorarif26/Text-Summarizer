@@ -23,7 +23,7 @@ text-summarizer-app/
 │ └── style.css # Basic CSS styling
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+---
 ## 📦 Installation
 
 ### 1️⃣ Clone the Repository
