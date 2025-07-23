@@ -12,6 +12,7 @@ A simple web-based **Text Summarization** tool built using Python, Flask, and Hu
 - 🔹 Adjustable summary length parameters
 
 ---
+```
 ## 🗂️ Project Structure
 
 text-summarizer-app/
@@ -23,7 +24,7 @@ text-summarizer-app/
 │ └── style.css # Basic CSS styling
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
----
+```
 ## 📦 Installation
 
 ### 1️⃣ Clone the Repository
