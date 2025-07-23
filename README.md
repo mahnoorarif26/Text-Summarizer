@@ -27,14 +27,12 @@ text-summarizer-app/
 ## 📦 Installation
 
 ### 1️⃣ Clone the Repository
-
-```bash
 git clone https://github.com/mahnoorarif26/text-summarizer-app.git
 cd text-summarizer-app
-✔ Install Required Packages
+### 2️⃣ Install Required Packages
 pip install -r requirements.txt
 
-▶️ Running the App
+### ▶️ Running the App
 Start the Flask server by running:
 python app.py
 Then open your browser and go to:
