@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e1bee7);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 40px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 800px;
+    animation: fadeIn 0.8s ease-in;
+}
+
+h1 {
+    text-align: center;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    border: 2px solid #ce93d8;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #8e24aa;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #8e24aa;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #6a1b9a;
+}
+
+button[type="button"] {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+button[type="button"]:hover {
+    background-color: #bdbdbd;
+}
+
+.result {
+    margin-top: 30px;
+    background-color: #f3e5f5;
+    border-left: 6px solid #6a1b9a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.result h2 {
+    margin-top: 0;
+    color: #4a148c;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+label[for="summary_type"] {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #6a1b9a;
+}
+
+select#summary_type {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ce93d8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #4a148c;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+select#summary_type:focus {
+    border-color: #8e24aa;
+}
